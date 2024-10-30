@@ -28,6 +28,9 @@ public:
 
 
     User getUser(const int& indexK) const;
+
+    friend ostream& operator<<(ostream& os, const Instagram340& greeting);
+
 };
 
 
